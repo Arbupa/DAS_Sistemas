@@ -1,4 +1,4 @@
-class Pista(object):# modelar una pista musical (cancion)
+class Pista(object): #modelar una pista musical (cancion)
     def __init__(self, nombre, favorita, duracion, artista):
         self.nombre = nombre     #Srting
         self.favorita = favorita #tipo boolean
