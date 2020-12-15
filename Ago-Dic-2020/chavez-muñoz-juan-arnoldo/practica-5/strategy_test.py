@@ -2,7 +2,7 @@ import unittest
 
 from strategy import *
 
-class StrategyTest(unittest.TestCase): ## ESTE YA PASA
+class StrategyTest(unittest.TestCase):
     def test_basic_auth_strategy(self):
         context = AuthContext(BasicAuthConcreteStrategy(usr='tintin', passwd='123456'))
         self.assertEqual(
