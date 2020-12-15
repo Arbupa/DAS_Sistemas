@@ -4,5 +4,5 @@ docker run -d --name mysql_db -p 4000:3306 -e MYSQL_ROOT_PASSWORD=1 -e MYSQL_DAT
 -(opcional) para verlo en phpmyadmin después de correr el contenedor, ejecutar el comando:
 docker run --name myadmin_sql -d --link mysql_db:db -p 8080:80 phpmyadmin 
 
--Después para entrar al modo interactivo:
+- Después para entrar al modo interactivo:
 docker exec -it mysql_db mysql -u foo -p
