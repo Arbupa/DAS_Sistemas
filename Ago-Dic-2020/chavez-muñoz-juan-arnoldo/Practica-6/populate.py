@@ -3,7 +3,7 @@ import pymongo
 client = pymongo.MongoClient("mongodb://localhost:27017/")
 db = client["mi-db"]
 
-# Db Name
+# Name
 print("Nombre de la DB: ", db.name)
 
 # Crea colección e inserta un registro
