@@ -2,7 +2,7 @@
 from abc import ABCMeta, abstractmethod 
 import copy 
   
-# class 
+#class 
 class Courses_At_GFG(metaclass = ABCMeta): 
       
     #constructor  
